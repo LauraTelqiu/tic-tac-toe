@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Tic-Tac-Toe</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Ubuntu|Uncial+Antiqua"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" type="text/css" media="screen" href="./style.css" />
+  </head>
+
+  <body>
+    <div class="contanier">
+      <header>Tic-Tac-Toe</header>
+
+      <div class="rules">
+        <p>
+          The goal of tic-tac-toe is to be the first player to get three in a
+          row.The player who is playing "X" always goes first. Players alternate
+          placing Xs and Os on the board until either player has three in a row,
+          horizontally, vertically, or diagonally or until all squares on the
+          grid are filled. If a player is able to draw three Xs or three Os in a
+          row, then that player wins. If all squares are filled and neither
+          player has made a complete row of Xs or Os, then the game is a draw.
+        </p>
+      </div>
+      <div class="board">
+        <div class="grid">
+          <div class="grid-item" data-index="0"></div>
+          <div class="grid-item" data-index="1"></div>
+          <div class="grid-item" data-index="2"></div>
+          <div class="grid-item" data-index="3"></div>
+          <div class="grid-item" data-index="4"></div>
+          <div class="grid-item" data-index="5"></div>
+          <div class="grid-item" data-index="6"></div>
+          <div class="grid-item" data-index="7"></div>
+          <div class="grid-item" data-index="8"></div>
+        </div>
+      </div>
+
+      <div class="game-status"></div>
+
+      <button id="restartButton">Restart</button>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
